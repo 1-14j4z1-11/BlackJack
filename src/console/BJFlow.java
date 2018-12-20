@@ -13,11 +13,12 @@ import model.blackjack.BJHand;
 import model.blackjack.BJPlayer;
 import model.blackjack.BlackJack;
 import model.cards.Card;
+import model.state.BJAction;
 
 public class BJFlow
 {
 	private static final int PARENT_STOP_SCORE = 17;
-	private static final int PLAYER_NUM = 1;
+	private static final int PLAYER_NUM = 2;
 	private static final BufferedReader stdin = new BufferedReader(new InputStreamReader(System.in));
 	private static final Map<BJAction, String> ACTION_KEY_MAP = new HashMap<BJAction, String>()
 	{

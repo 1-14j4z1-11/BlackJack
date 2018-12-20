@@ -6,7 +6,7 @@ public class Main
 {
 	public static void main(String[] args)
 	{
-		BJFlow flow = new BJFlow();
-		flow.start();
+		new BJFlow().start();
+		//new MainFrame("BlackJack").setVisible(true);
 	}
 }
